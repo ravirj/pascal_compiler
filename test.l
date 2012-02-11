@@ -20,7 +20,7 @@ number 		{digit}+(\.{digit}+)?(E[-+]?{digit}+)?
 {comment2} 	{/*no action*/}
 {comment3} 	{/*no action*/}
 {space}		{printf(" ");}
-\n			{printf("\n");}
+\n		{printf("\n");}
 and 		{printf("AND");} 
 array 		{printf("ARRAY");}
 begin 		{printf("BEGIN");}
@@ -30,7 +30,7 @@ class 		{printf("CLASS");}
 const 		{printf("CONST");}
 continue	{printf("CONTINUE");}
 div 		{printf("DIV");}
-do 			{printf("DO");}
+do 		{printf("DO");}
 downto 		{printf("DOWNTO");}
 else 		{printf("ELSE");}
 end 		{printf("END");}
@@ -40,16 +40,16 @@ false 		{printf("FALSE");}
 for 		{printf("FOR");}
 function 	{printf("FUNCTION");}
 goto 		{printf("GOTO");}
-if 			{printf("IF");}
-in 			{printf("IN");}
+if 		{printf("IF");}
+in 		{printf("IN");}
 integer|INTEGER|Integer		{printf("INTEGER");}
-is 			{printf("IS");}
+is 		{printf("IS");}
 label 		{printf("LABEL");}
 mod 		{printf("MOD");}
 not 		{printf("NOT");}
-of 			{printf("OF");}
+of 		{printf("OF");}
 operator	{printf("OPERATOR");}
-or 			{printf("OR");}
+or 		{printf("OR");}
 pow 		{printf("POW");}
 private 	{printf("PRIVATE");}
 procedure 	{printf("PROCEDURE");}
@@ -68,24 +68,24 @@ while 		{printf("WHILE");}
 with 		{printf("WITH");}
 xor 		{printf("XOR");}
 
-"+"			{printf("ADD");}
-"-"			{printf("SUB");}
-"*"			{printf("MULT");}
-"="			{printf("ISEQUAL");}
+"+"		{printf("ADD");}
+"-"		{printf("SUB");}
+"*"		{printf("MULT");}
+"="		{printf("ISEQUAL");}
 "<>"		{printf("NE");}
-">"			{printf("GT");}
-"<"			{printf("LT");}
+">"		{printf("GT");}
+"<"		{printf("LT");}
 ">="		{printf("GTE");}
 "<="		{printf("LTE");}
 ":="		{printf("ASSIGNMENT");}
-"~"			{printf("BNOT");}
-"&"			{printf("BAND");}
+"~"		{printf("BNOT");}
+"&"		{printf("BAND");}
 "\|" 		{printf("BOR");}
-\(			{printf("(");}
-\)			{printf(")");}
-":"			{printf("COLON");}
-";"			{printf("SCOLON");}
-","			{printf("COMMA");}
+\(		{printf("(");}
+\)		{printf(")");}
+":"		{printf("COLON");}
+";"		{printf("SCOLON");}
+","		{printf("COMMA");}
 "\.\."		{printf("RANGE");}
 "\["		{printf("[");}
 "\]"		{printf("]");}
