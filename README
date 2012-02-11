@@ -1,2 +1,4 @@
-made a simple lexer for  pascal which identifies almost all the tokens of pascal. symbol table in C is also there.
+made a simple lexer for  pascal which identifies almost all the tokens of pascal. symbol table in C is also there. test.pas tests the above.
 Now, to make a parser and then using that to parse the pascal grammar and simulataneously insert tokens into the symbol table.
+
+When parser will be ready convert printf statements in .l file to return statements.
