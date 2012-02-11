@@ -59,7 +59,7 @@ record 		{printf("RECORD");}
 repeat 		{printf("REPEAT");}
 string 		{printf("STRING");}
 then 		{printf("THEN");}
-to 			{printf("TO");}
+to 		{printf("TO");}
 true		{printf("TRUE");}
 type|TYPE|Type 		{printf("TYPE");}
 until 		{printf("UNTIL");}
